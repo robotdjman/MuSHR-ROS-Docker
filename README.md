@@ -2,9 +2,9 @@
 VSCode Dev Container and Dockerfile for MuSHR Ros Noetic development. Preinstalled with many tools including catkin, python3, conda/mamba, and more.
 
 
-## Usage
+## Getting Started
 
-Requires the Dev Containers plugin for VSCode
+**NOTE: Requires the Dev Containers plugin for VSCode**
 
 1) Open docker desktop
 2) Open this repo or another folder with this .devcontainer
