@@ -1,10 +1,13 @@
 # MuSHR-ROS-Docker
 VSCode Dev Container and Dockerfile for MuSHR Ros Noetic development. Preinstalled with many tools including catkin, python3, conda/mamba, and more.
 
+## Requirments
+
+- Dev Containers plugin for VSCode
+- [XQuartz](https://www.xquartz.org/) installed and running (allows GUI elements like matplotlib to display on your mac desktop)
+- [Orbstack](https://orbstack.dev/) or [Docker Desktop](https://www.docker.com/products/docker-desktop/) (I have had better luck with orbstack, but that is just me trying to get this to work for an assignment and not testing docker desktop fully)
 
 ## Getting Started
-
-**NOTE: Requires the Dev Containers plugin for VSCode**
 
 1) Open docker desktop
 2) Open this repo or another folder with this .devcontainer
