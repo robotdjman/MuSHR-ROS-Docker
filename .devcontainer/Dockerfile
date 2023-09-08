@@ -70,7 +70,7 @@ RUN mkdir /home/vscode/setup
 
 # --------------------------- MuSHR Deps ---------------------------
 # Install git, tkinter, wget, g++, vim, tmux, networking stuff, apt-add-repository
-RUN sudo apt-get install -y git-all python3-tk wget g++ vim tmux net-tools iputils-ping software-properties-common
+RUN sudo apt-get install -y git-all python3-tk wget g++ vim tmux net-tools iputils-ping software-properties-common iproute2
 RUN sudo apt-get update
 RUN sudo apt-get install -y python3-vcstool python3-pip
 
@@ -84,7 +84,7 @@ RUN sudo pip3 install Cython torch torchvision torchaudio numpy scipy networkx p
 RUN sudo ln -s /usr/include/opencv4 /usr/include/opencv
 
 # Auto source this workspace on terminal startup
-RUN echo "source /CS4963-Robots/catkin_ws/devel/setup.sh" >> ~/.bashrc
+RUN echo "source /CS4963-Robots/mushr_ws/devel/setup.bash" >> ~/.bashrc
 
 # Install rangelibc
 #RUN git clone https://github.com/gftabor/range_libc ~/range_libc
